@@ -1,4 +1,4 @@
-package sample;
+package com.hpcnt.deviceRateAutomation;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -10,9 +10,9 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("/fxml/sample.fxml"));
-        primaryStage.setTitle("Hello World");
-        primaryStage.setScene(new Scene(root, 300, 275));
+        Parent root = FXMLLoader.load(getClass().getResource("/fxml/main.fxml"));
+        primaryStage.setTitle("Hpcnt device Rate Automation Tool");
+        primaryStage.setScene(new Scene(root, 300, 200));
         primaryStage.show();
     }
 

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.GridPane?>
+
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<GridPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121"
+          xmlns:fx="http://javafx.com/fxml/1"
+          fx:id="mainPane" fx:controller="com.hpcnt.deviceRateAutomation.controller.MainController" alignment="CENTER">
+    <Text textAlignment="CENTER" text="Hpcnt device Rate Automation Tool" GridPane.columnIndex="0"
+          GridPane.rowIndex="0"/>
+    <VBox GridPane.columnIndex="0" GridPane.rowIndex="1">
+        <Text/>
+    </VBox>
+    <HBox alignment="CENTER" GridPane.columnIndex="0" GridPane.rowIndex="2">
+        <Button alignment="CENTER" text="choose xlsx File" onAction="#onButtonClicked"/>
+    </HBox>
+    <VBox GridPane.columnIndex="0" GridPane.rowIndex="3">
+        <Text/>
+    </VBox>
+    <HBox alignment="CENTER" GridPane.columnIndex="0" GridPane.rowIndex="4">
+        <Button alignment="CENTER" text="Ios Prefix settings" onAction="#onIosPrefixButtonClicked"/>
+    </HBox>
+</GridPane>
